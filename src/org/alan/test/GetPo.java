@@ -52,7 +52,7 @@ public class GetPo {
 			header.setPurchaseOrderKey(pk);
 			
 			gpo.setHeader(header);
-			//GET  
+			//GET  PO
 			ShowPurchaseOrder spo=poget.getPurchaseOrder(gpo);
 			System.out.println("ddd"+spo.getShowPurchaseOrder(0).getHeader().getBusinessUnit());
 			
