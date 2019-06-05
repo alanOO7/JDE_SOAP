@@ -1,2 +1,3 @@
 # JDE_SOAP
 CALL WEB SERVICE
+调用标准函数生成 SO,PO
